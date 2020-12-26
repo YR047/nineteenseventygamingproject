@@ -17,14 +17,13 @@ header nav{
 	justify-content: space-between;
 	align-items: center;
 	padding:6.7px 0px;
-	width: 95%;
+	width: 100%;
 	background:#202020;
 	margin: 0 auto; 
 }
 
 header nav .logo-top{
 	align-items: center;
-	border: 2px solid green;
 	display: flex;
 }
 
@@ -34,13 +33,11 @@ header nav .logo-top img{
 }
 
 header nav .login-signup{
-	color: #ffffff;
 	margin-right: 80px;
 	padding: 0;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	background: #031321;
 	font-family: consolas;
 }
 a
@@ -48,19 +45,19 @@ a
 	position: relative;
 	display: inline-block;
 	padding: 15px 30px;
-	color: #2196f3;
+	color: white;
 	text-transform: uppercase;
 	letter-spacing: 4px;
 	text-decoration: none;
-	font-size: 24px;
+	font-size: 18px;
 	overflow: hidden;
 	transition: 0.2s;
 }
 a:hover
 {
-	color: #255784;
-	background: #2196f3;
-	box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3;
+	color: #ffffff;
+	background: #3500d3;
+	box-shadow: 0 0 20px #3500d3, 0 0 40px #3500d3, 0 0 80px #3500d3;
 	transition-delay: 1s;
 } 
 a span
@@ -68,13 +65,14 @@ a span
 	position: absolute;
 	display: block;
 }
+
 a span:nth-child(1)
 {
 	top: 0;
 	left: -100%;
 	width: 100%;
 	height: 2px;
-	background: linear-gradient(90deg,transparent,#2196f3)
+	background: linear-gradient(90deg,transparent,#3500d3)
 }
 a:hover span:nth-child(1)
 {
@@ -88,7 +86,7 @@ a span:nth-child(3)
 	right: -100%;
 	width: 100%;
 	height: 2px;
-	background: linear-gradient(270deg,transparent,#2196f3)
+	background: linear-gradient(270deg,transparent,#3500d3)
 }
 a:hover span:nth-child(3)
 {
@@ -103,7 +101,7 @@ a span:nth-child(2)
 	right: 0;
 	width: 2px;
 	height: 100%;
-	background: linear-gradient(180deg,transparent,#2196f3)
+	background: linear-gradient(180deg,transparent,#3500d3)
 }
 a:hover span:nth-child(2)
 {
@@ -118,7 +116,7 @@ a span:nth-child(4)
 	left: 0;
 	width: 2px;
 	height: 100%;
-	background: linear-gradient(360deg,transparent,#2196f3)
+	background: linear-gradient(360deg,transparent,#3500d3)
 }
 a:hover span:nth-child(4)
 {
